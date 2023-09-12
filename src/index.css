@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 1rem;
+  background-color: #1c1e29;
+  color: #9862fe;
+}
+.qrcodeContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+input[name="barcode"]{
+  padding: .3rem .5rem;
+}
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+button{
+  padding: .3rem .5rem;
+  background-color: #9862fe;
+  color: white;
+}
+.downbtn{
+  display: none;
+  margin: 1rem;
+}
+.barcodeContainer{
+  background-color: white;
+  padding: .7rem;
+  border-radius: .5rem;
+}
+@media print {
+  /* body * {
+    visibility : hidden ;
+  } */
+  .header, .inputContainer, center{
+    visibility: hidden;
+  }
+  .barcodeContainer, .barcodeContainer *{
+    visibility : visible;
+  }
+}
