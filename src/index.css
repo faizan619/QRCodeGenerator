@@ -13,6 +13,7 @@
   gap: 1rem;
   background-color: #1c1e29;
   color: #9862fe;
+  text-align: center;
 }
 .qrcodeContainer{
   display: flex;
@@ -43,9 +44,6 @@ button{
   border-radius: .5rem;
 }
 @media print {
-  /* body * {
-    visibility : hidden ;
-  } */
   .header, .inputContainer, center{
     visibility: hidden;
   }
