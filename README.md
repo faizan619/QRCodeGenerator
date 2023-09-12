@@ -1,5 +1,5 @@
 # React + Vite
- - [https://qr-code-generator-dsjwi24px-maxchannelmailme-gmailcom.vercel.app/](https://qr-code-generator-dsjwi24px-maxchannelmailme-gmailcom.vercel.app/)
+ - [qr-code-generator-fawn-nu.vercel.app](https://qr-code-generator-dsjwi24px-maxchannelmailme-gmailcom.vercel.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
