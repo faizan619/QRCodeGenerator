@@ -5,13 +5,125 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
+  padding-top: 2rem;
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1c1e29;
+  color: #9862fe;
+  text-align: center;
+}
+.tabmain{
+  overflow: hidden;
+}
+.react-tabs__tab{
+  color: red;
+  text-decoration: underline;
+}
+.react-tabs__tab--selected{
+  text-decoration: none;
+  color: #9862fe;
+}
+.GeneratorContainer{
+  margin-top: 1rem;
+  width: 100vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qrcodeContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
   gap: 1rem;
+}
+input[name="barcode"]{
+  padding: .3rem .5rem;
+  height: 2rem;
+}
+.inputContainer{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+button{
+  padding: .3rem .5rem;
+  background-color: #9862fe;
+  color: white;
+}
+.downbtn{
+  display: none;
+  margin: 1rem;
+}
+.barcodeContainer{
+  background-color: white;
+  padding: .7rem;
+  border-radius: .5rem;
+}
+@media print {
+  .header, .inputContainer, center{
+    visibility: hidden;
+  }
+  .barcodeContainer, .barcodeContainer *{
+    visibility : visible;
+  }
+}
+@media (max-width:300px) {
+  .inputContainer{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:200px) {
+  .container h1{
+    font-size: 1rem;
+  }
+  input[name="barcode"]{
+    padding: .3rem;
+  }
+}
+
+#app{
+  margin-top: 1rem;
+  padding: 1rem;
+  height: 100%;
+  overflow: hidden;
+}
+.websiteresult{
+  color: white;
+  background-color: blueviolet;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
+#app div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+button{
+  cursor: alias;
+  border-radius: .5rem;
+  transition: all ease .3s;
+  border-color: white;
+}
+button:hover{
+  background-color: blueviolet;
+}
+
+/* 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
   background-color: #1c1e29;
+  gap: 1rem;
   color: #9862fe;
   text-align: center;
 }
@@ -51,3 +163,15 @@ button{
     visibility : visible;
   }
 }
+
+
+#app{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+} */
