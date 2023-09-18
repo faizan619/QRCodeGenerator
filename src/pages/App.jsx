@@ -14,6 +14,7 @@ function App() {
     }
     else{
       setRenderTask(<h3>Enter Some text for the Barcode...</h3>)
+      document.querySelector(".downbtn").style.display = "none"
     }
   }
 
@@ -24,10 +25,7 @@ function App() {
   
   return (
     <>
-      <div className="container">
-        <div className="header">
-          <h1>QR Code Generator</h1>
-        </div>
+      <div className="GeneratorContainer">
         <div className="qrcodeContainer">
         <div className="inputContainer">
           <input 
