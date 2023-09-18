@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "html5-qrcode": "^2.3.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-qr-code": "^2.0.12"
+    "react-qr-code": "^2.0.12",
+    "react-tabs": "^6.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
