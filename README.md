@@ -1,3 +1,4 @@
+# QR Code Generator and Reader
 # React + Vite
  - [qr-code-generator-fawn-nu.vercel.app](https://qr-code-generator-dsjwi24px-maxchannelmailme-gmailcom.vercel.app/)
 
